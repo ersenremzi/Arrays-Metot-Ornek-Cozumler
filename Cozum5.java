@@ -33,7 +33,7 @@ public class Cozum5 {
 
     private static void cevapAnahtariniGoruntule(char[] cevapAnahtari) {
         for (char secenek : cevapAnahtari){
-            System.out.println(secenek+ " , ");
+            System.out.print(secenek+ " , ");
         }
         System.out.println( );
     }
@@ -42,7 +42,7 @@ public class Cozum5 {
             for (int sutun = 0 ; sutun < tumCevaplar[satir].length ; sutun++){
                 System.out.println(tumCevaplar[satir][sutun] + " , ");
             }
-            System.out.println();
+            System.out.print();
         }
     }
     private static void ogrencileriDegerlendir(char[] cevapAnahtari , char[][] tumCevaplar) {
